@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <h2><u>STUDENT REGISTRATION SYSTEM</u></h2>
+        <h5>Registration form to register valuable data about newly admitted students.</h5>
+    </header>
+    <section id="form1">
+        <h3>Start your registration process</h3>
+        <form id="registration">
+            <input type="text" id="Name" placeholder="Student Name" required>
+            <input type="text" id="ID" placeholder="Student ID" required>
+            <input type="email" id="mailid" placeholder="Email ID" required>
+            <input type="text" id="contact" placeholder="Contact Number" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    <section id="Records">
+        <h3>Newly added Students Data</h3>
+        <div id="recordsholder"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

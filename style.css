@@ -1,0 +1,171 @@
+body
+{
+    background-color: mediumslateblue;
+}
+header
+{
+    text-align: center;
+    font-size: x-large;
+h2
+{
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+h5
+{
+    color: cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#form1
+{
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+h3
+{
+    text-align: center;
+}
+#registration input
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 770px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#registration button
+{
+    margin-left: 350px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(103, 135, 172);
+    cursor: pointer;
+    border: 1px solid black;
+}
+#registration button:hover
+{
+    color: aliceblue;
+    background-color: darkolivegreen;
+}
+#registration button:active
+{
+    transform: scale(1.1);
+}
+#Records
+{
+    background-color: lightgreen;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 800px;
+    max-height: 300px;
+    margin: auto;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    overflow-x: auto;
+}
+#recordsholder table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+#recordsholder th, #recordsholder td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+#recordsholder th {
+    background-color: rgb(160, 67, 25);
+    color: white;
+}
+@media (max-width: 992px)
+{
+    #registration input
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 690px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#registration button
+{
+    margin-left: 270px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(103, 135, 172);
+    cursor: pointer;
+    border: 1px solid black;
+}
+}
+@media (max-width: 768px)
+{
+    #registration input
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 580px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+}
+@media (max-width: 600px)
+{
+    #registration input
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 400px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#registration button
+{
+    margin-left: 190px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(103, 135, 172);
+    cursor: pointer;
+    border: 1px solid black;
+}
+}
+@media (max-width: 360px)
+{
+    #registration input
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 270px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#registration button
+{
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(103, 135, 172);
+    cursor: pointer;
+    border: 1px solid black;
+}
+}
